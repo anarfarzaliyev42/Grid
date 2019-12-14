@@ -10,8 +10,15 @@
     background: orange;
 
 }
-div{
+
+div[class*="col-"]{
     float: left;
+}
+div.first{
+    float: left;
+}
+div.second{
+    float: right;
 }
 .col-1{
     width: 8.3%;
